@@ -104,6 +104,9 @@ nav{
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+img{
+    width:100%;
+}
 
 .middle-content {
     margin-bottom: 20px;
@@ -208,12 +211,23 @@ footer nav a {
 .about-top-content{
     margin:3%;
 }
+
+
+
+/* Helper Classes */
+.dotted-line{
+    border-bottom:1px dashed black;
+    width:100%;
+    padding-top: 15%;
+
+
+}
 .about-middle-content{
     display: flex;
     flex-wrap: wrap;
-    border-top:2px dotted black;
-    padding: 5% 0% 5% 2%;
-    align-content:flex-start;
+    justify-content: space-between;
+    border-top:1px dashed black;
+    padding:0 4%;
 }
 .about-middle-content a{
     border:2px solid black;
@@ -224,32 +238,20 @@ footer nav a {
     color:black;
 }
 
-.img-text-top{
-    width:50%;
-    padding-bottom: 4%;
+.img-text{
+    width:48%;
+    padding:4% 0;
+    
 }
-.img-text-top h2{
+.img-text h2{
     padding-top: 3%;
 }
 
-.img-text-top p{
+.img-text p{
     margin-bottom: 10%;
-}
-.img-text-bottom{
-    width:50%;
-    padding-bottom: 5%;
-}
-.img-text-bottom img{
-    padding-top:15%;
-}
-.img-text-bottom p{
-    margin-bottom: 10%;
-}
-.meeting{
-    width:50%;
 }
 .about-bottom-content{
-    margin:2%;
+    margin:4%;
 }
 .about-bottom-content p{
     padding-bottom:3%;
