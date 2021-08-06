@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -80,7 +81,7 @@ nav{
     justify-content: space-around;
     align-items: flex-end;
     width:100%;
-    margin-bottom: 0;
+    
 }
 .links a{
     text-decoration: none;
@@ -167,6 +168,7 @@ nav{
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    
 }
 
 .bottom-content .text-container {
@@ -190,6 +192,7 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
     margin: 0%;
+    
 }
 
 footer nav a {
@@ -199,17 +202,18 @@ footer nav a {
 
 /* About Page */
 
+.jumbo-about-img{
+    margin-top:5%;
+}
 .about-top-content{
     margin:3%;
 }
-
 .about-middle-content{
     display: flex;
     flex-wrap: wrap;
     border-top:2px dotted black;
-    padding-top:4%;
+    padding: 5% 0% 5% 2%;
     align-content:flex-start;
-    padding-bottom: %;
 }
 .about-middle-content a{
     border:2px solid black;
@@ -220,28 +224,33 @@ footer nav a {
     color:black;
 }
 
-.strategy{
+.img-text-top{
     width:50%;
     padding-bottom: 4%;
-
+}
+.img-text-top h2{
+    padding-top: 3%;
 }
 
-.strategy p{
+.img-text-top p{
     margin-bottom: 10%;
 }
-.how-we-work{
+.img-text-bottom{
     width:50%;
+    padding-bottom: 5%;
 }
-.office{
-    width:50%;
-}
-.office img{
-    border-top: 2px dotted black;
+.img-text-bottom img{
     padding-top:15%;
+}
+.img-text-bottom p{
+    margin-bottom: 10%;
 }
 .meeting{
     width:50%;
 }
 .about-bottom-content{
-    margin: 5% 0;
+    margin:2%;
+}
+.about-bottom-content p{
+    padding-bottom:3%;
 }
