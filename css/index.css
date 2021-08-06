@@ -130,6 +130,8 @@ nav{
     align-items: center;
     justify-content: center; 
 }
+/* Box Colors */
+
 #teal{
     background: teal;
 }
@@ -140,6 +142,9 @@ nav{
     background:cadetblue;
 }
 #coral{
+    background:coral;
+}
+#crimson{
     background:crimson;
 }
 #forestgreen{
@@ -184,10 +189,59 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-    margin-bottom: 0%;
+    margin: 0%;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page */
+
+.about-top-content{
+    margin:3%;
+}
+
+.about-middle-content{
+    display: flex;
+    flex-wrap: wrap;
+    border-top:2px dotted black;
+    padding-top:4%;
+    align-content:flex-start;
+    padding-bottom: %;
+}
+.about-middle-content a{
+    border:2px solid black;
+    border-radius: 20%;
+    padding:2% 5%;
+    width:20%;
+    text-decoration: none;
+    color:black;
+}
+
+.strategy{
+    width:50%;
+    padding-bottom: 4%;
+
+}
+
+.strategy p{
+    margin-bottom: 10%;
+}
+.how-we-work{
+    width:50%;
+}
+.office{
+    width:50%;
+}
+.office img{
+    border-top: 2px dotted black;
+    padding-top:15%;
+}
+.meeting{
+    width:50%;
+}
+.about-bottom-content{
+    margin: 5% 0;
 }
